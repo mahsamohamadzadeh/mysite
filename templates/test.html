@@ -1,0 +1,23 @@
+{% load blog_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+{#{% for post in posts %}#}
+{#    {% if post.status==1 %}#}
+{#   <h1>{{ post.title }}</h1>#}
+{#   <p>{{ post.content }}</p>#}
+{#    <small>{{ post.published_date }}</small>#}
+{#    {% endif %}#}
+{#{% endfor %}#}
+{#<p>{{ post.title }}</p>#}
+<p>{% hello %}</p>
+{#post {% totalposts  %}#}
+{% popular %}
+</body>
+</html>
